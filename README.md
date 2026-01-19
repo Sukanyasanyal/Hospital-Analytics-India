@@ -1,4 +1,4 @@
-[India Healthcare Dashboard]
+![India Healthcare Dashboard]
 (Visualizations/Hospital_Dashboard1.png)
 
 India Healthcare Infrastructure Analysis (2026)
@@ -16,6 +16,7 @@ Total Urban Hospitals: 3772
 
 Total Rural Hospitals: 20K
 
+
 📂 Project Structure
 The project is organized into the following directory structure:
 
@@ -27,6 +28,7 @@ The project is organized into the following directory structure:
 
 /Documentation: Detailed PDF report of the analysis.
 
+
 🛠️ Tools & Technologies
 Jupyter Notebook (Python): Used for initial data cleaning and handling missing values.
 
@@ -35,6 +37,7 @@ Power BI: Used for data modeling, DAX calculations, and interactive visualizatio
 Power Query: Used for final data transformation and date type formatting.
 
 DAX (Data Analysis Expressions): Used to create custom measures like Total Facilities.
+
 
 🧼 Data Cleaning Process
 Before visualization, the data underwent several cleaning steps:
@@ -45,6 +48,7 @@ Text-to-Date Conversion: The As on column initially contained text (e.g., "As on
 
 Column Standardization: Standardized State/UT names for accurate map mapping.
 
+
 📊 Dashboard Features
 Statewise Concentration: A Treemap visualizing which states hold the highest number of facilities.
 
@@ -54,6 +58,7 @@ Urban vs Rural Ratio: A Donut chart showing the percentage split of facilities, 
 
 Interactive Filtering: Users can filter the entire dashboard by State or Date Range.
 
+
 ⚠️ Challenges & Solutions
 The "Remove Errors" Trap: Initially, using "Remove Errors" on the date column deleted significant rows of data, dropping the facility count from 24K to 3K.
 
@@ -62,6 +67,7 @@ Solution: Reverted the step in Power Query and used Replace Values and Data Type
 Visual Clarity: Dark mode themes made text hard to read in some visuals.
 
 Solution: Adjusted category labels to White/Bold and added a high-contrast Cyan theme for the donut chart and sliders.
+
 
 🚀 How to Run
 Clone the repository.
