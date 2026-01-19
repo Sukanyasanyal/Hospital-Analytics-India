@@ -1,5 +1,4 @@
-![India Healthcare Dashboard]
-(Visualizations/Hospital_dashboard1.png)
+
 
 **India Healthcare Infrastructure Analysis (2026)**
 
